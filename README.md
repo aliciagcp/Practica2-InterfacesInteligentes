@@ -9,7 +9,7 @@ Se han realizado varios ejercicios de script en unity:
 
 Para ello se han seguido los siguientes pasos:
 1. Creación del objeto 3D básico (cubo).
-2. Creación de un [script](script/ejercicio1_script) asociado a cubo.
+2. Creación de un [script](scripts/ejercicio1_script.cs) asociado a cubo.
    
 Dentro del script:
 
