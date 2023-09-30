@@ -1,5 +1,5 @@
 # Practica2-InterfacesInteligentes
-## Introducción a Unity
+## Introducción C# - Scripts
 ### Alicia Guadalupe Cruz Pérez
 Se han realizado varios ejercicios de script en unity:
 
