@@ -23,7 +23,7 @@ Dentro del script:
 
 <br><br>
 
-- **b) Se pide crear una escena simple en la que ubiques un plano y sobre él un cubo, una esfera y un cilindro. Cada uno de los objetos debe estar en un color diferente. En la consola cada objeto debe mostrar su nombre.**
+- **b) Se pide crear una escena simple en la que se ubique un plano y sobre él un cubo, una esfera y un cilindro. Cada uno de los objetos debe estar en un color diferente. En la consola cada objeto debe mostrar su nombre.**
 
 ![ejercicio_2](gifs/ejercicio_2.gif)
 
@@ -38,3 +38,12 @@ Dentro del script:
 
 1. Declaración de variables públicas para referenciar objetos en Unity (plane, cube, sphere, cylinder).
 2. Acceso al nombre de los objetos (plane, cube, sphere, cylinder)  y mostración en la consola usando Debug.Log().
+
+<br><br>
+
+- **c) Se pide crear un script asociado a la esfera con dos variables Vector3 públicas. Darle valor a cada componente de los vectores desde el inspector. Se debe mostrar en la consola:**
+   + **La magnitud de cada uno de ellos.**
+   + **El ángulo que forman.**
+   + **La distancia entre ambos.**
+   + **Un mensaje indicando qué vector está a una altura mayor.**
+   + **Muestra en el inspector cada uno de esos valores.**
