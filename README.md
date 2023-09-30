@@ -22,13 +22,14 @@ Dentro del script:
 7. Bucle para verificar números mayores que 15 en el arreglo y mostrarlos en la consola de Unity (Debug.Log()).
 
 
+
 - **b) Se pide crear una escena simple en la que ubiques un plano y sobre él un cubo, una esfera y un cilindro. Cada uno de los objetos debe estar en un color diferente. En la consola cada objeto debe mostrar su nombre.**
 
 ![ejercicio_2](gifs/ejercicio_2.gif)
 
 Para ello se han seguido los siguientes pasos:
 1. Creación de dos objetos 3D básicos nuevos (esfera y cilindro).
-2. Creación de una carpeta Materials dentro de la carpeta Assets.
+2. Creación de una carpeta **Materials** dentro de la carpeta **Assets**.
 3. Creación, nombramiento y asignación de cada material a un objeto distinto.
 4. Creación de un [script](scripts/ejercicio2_script.cs) asociado a un objeto vacío (printName).
 5. En el inspector de dicho objeto, asinación de cada objeto a su variable correspondiente.
