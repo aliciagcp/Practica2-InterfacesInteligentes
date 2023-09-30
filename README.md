@@ -10,7 +10,9 @@ Se han realizado varios ejercicios de script en unity:
 Para ello se han seguido los siguientes pasos:
 1. Creación del objeto 3D básico (cubo).
 2. Creación de un script asociado a cubo.
+   
 Dentro del script:
+
 1. Creación de tres variables públicas para su posible cambio desde el inspector (minimum, maximum, size_vector).
 2. Inicialización del arreglo (numbers) con un tamaño específico.
 3. Asignación aleatoria de valores al arreglo en la función Start().
