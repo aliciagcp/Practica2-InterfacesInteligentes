@@ -21,7 +21,7 @@ Dentro del script:
 6. Reemplazo del número en la posición aleatoria con el nuevo número en el arreglo.
 7. Bucle para verificar números mayores que 15 en el arreglo y mostrarlos en la consola de Unity (Debug.Log()).
 
-
+<br><br>
 
 - **b) Se pide crear una escena simple en la que ubiques un plano y sobre él un cubo, una esfera y un cilindro. Cada uno de los objetos debe estar en un color diferente. En la consola cada objeto debe mostrar su nombre.**
 
