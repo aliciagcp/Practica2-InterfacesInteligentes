@@ -32,7 +32,7 @@ Para ello se han seguido los siguientes pasos:
 2. Creación de una carpeta **Materials** dentro de la carpeta **Assets**.
 3. Creación, nombramiento y asignación de cada material a un objeto distinto.
 4. Creación de un [script](scripts/ejercicio2_script.cs) asociado a un objeto vacío (printName).
-5. En el inspector de dicho objeto, asinación de cada objeto a su variable correspondiente.
+5. En el inspector de dicho objeto, asignación de cada objeto a su variable correspondiente.
 
 Dentro del script:
 
