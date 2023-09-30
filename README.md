@@ -5,7 +5,7 @@ Se han realizado varios ejercicios de script en unity:
 
 - **a) Se pide crear un script asociado al cubo que inicialice un array a un conjunto de valores numéricos aleatorios entre 0 y 25. En cada frame se debe cambiar una posición aleatoria y mostrar en pantalla en la consola los que sean mayores que 15. Parametrizando el rango para poderlo cambiar desde el inspector.**
 
-![ejercicio_1](ejercicio_1.gif)
+![ejercicio_1](gifs/ejercicio_1.gif)
 
 Para ello se han seguido los siguientes pasos:
 1. Creación del objeto 3D básico (cubo).
