@@ -19,7 +19,7 @@ Dentro del script:
 4. Generación de una posición aleatoria en el arreglo (random_position).
 5. Generación de un nuevo número aleatorio (new_number).
 6. Reemplazo del número en la posición aleatoria con el nuevo número en el arreglo.
-7. Bucle para verificar números mayores que 15 en el arreglo y mostrarlos en la consola de Unity (Debug.Log()).
+7. Bucle para verificar números mayores que 15 en el arreglo y mostrarlos en la consola de Unity utilizando **Debug.Log()**.
 
 <br><br>
 
