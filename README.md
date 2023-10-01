@@ -57,8 +57,8 @@ Para ello se han seguido los siguientes pasos:
 Dentro del script:
 
 1. Declaración de variables públicas para los vectores **vectorA** y **vectorB**.
-2. Cálculo de la magnitud del vectorA.
-3. Cálculo de la magnitud del vectorB.
-4. Cálculo del ángulo entre vectorA y vectorB.
-5. Cálculo de la distancia entre los puntos resultantes de sumar vectorA y vectorB a la posición del objeto al que pertenece el script.
-6. Determinación de qué vector está más alto comparando las coordenadas de ambos vectores.
+2. Cálculo de la magnitud del vectorA y mostración en la consola usando Debug.Log().
+3. Cálculo de la magnitud del vectorB y mostración en la consola usando Debug.Log().
+4. Cálculo del ángulo entre vectorA y vectorB y mostración en la consola usando Debug.Log().
+5. Cálculo de la distancia entre los puntos resultantes de sumar vectorA y vectorB a la posición del objeto al que pertenece el script y mostración en la consola usando Debug.Log().
+6. Determinación de qué vector está más alto comparando las coordenadas de ambos vectores y mostración en la consola usando Debug.Log().
