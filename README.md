@@ -107,4 +107,12 @@ Dentro del script:
 
 Para ello se han seguido los siguientes pasos:
 1. Creación de un [script](scripts/ejercicio6_script.cs) asociado al objeto esfera (Ejercicio_6).
-2. 
+2. Asignación de los objetos "Cube" y "Cylinder" en el Inspector del objeto que contiene dicho script.
+
+Dentro del script:
+1. Acceso a la posición actual del objeto al que pertenece el script utilizando **transform.position**.
+2. Creación de un nuevo vector (new Vector3(5f, 0f, 0f)) que representa un desplazamiento de 5 unidades en el eje X.
+3. Suma del vector de desplazamiento a la posición actual del objeto (transform.position) para calcular la nueva posición del objeto cylinder a 5 unidades a la derecha en el eje X.
+4. Asignación de la nueva posición calculada al objeto cylinder utilizando **cylinder.transform.position**.
+5. Resta del vector de desplazamiento a la posición actual del objeto (transform.position) para calcular la nueva posición del objeto cube a 5 unidades a la izquierda en el eje X.
+6. Asignación de la nueva posición calculada al objeto cube utilizando **cube.transform.position**.
