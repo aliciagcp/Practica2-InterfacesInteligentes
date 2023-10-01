@@ -79,7 +79,7 @@ Dentro del script:
 
 <br><br>
 
-- **e) Crea un script para la esfera que muestre en consola la distancia a la que están el cubo y el cilindro.**
+- **e) Se pide crear un script para la esfera que muestre en consola la distancia a la que están el cubo y el cilindro.**
 
 ![ejercicio_5](gifs/ejercicio_5.gif)
 
