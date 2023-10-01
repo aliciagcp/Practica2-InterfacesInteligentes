@@ -76,3 +76,14 @@ Dentro del script:
 
 1. Acceso a la posición del objeto al que pertenece el script utilizando **transform.position**.
 2. Muestra de la posición de la esfera en la consola usando Debug.Log().
+
+<br><br>
+
+- **e) Crea un script para la esfera que muestre en consola la distancia a la que están el cubo y el cilindro.**
+
+![ejercicio_5](gifs/ejercicio_5.gif)
+
+Para ello se han seguido los siguientes pasos:
+1. Creación de un [script](scripts/ejercicio5_script.cs) asociado al objeto esfera (Ejercicio_5).
+
+Dentro del script:
