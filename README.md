@@ -37,7 +37,7 @@ Para ello se han seguido los siguientes pasos:
 Dentro del script:
 
 1. Declaración de variables públicas para referenciar objetos en Unity (plane, cube, sphere, cylinder).
-2. Acceso al nombre de los objetos (plane, cube, sphere, cylinder)  y mostración en la consola usando Debug.Log().
+2. Acceso al nombre de los objetos (plane, cube, sphere, cylinder) y muestra en la consola usando Debug.Log().
 
 <br><br>
 
@@ -57,11 +57,11 @@ Para ello se han seguido los siguientes pasos:
 Dentro del script:
 
 1. Declaración de variables públicas para los vectores **vectorA** y **vectorB**.
-2. Cálculo de la magnitud del vectorA y mostración en la consola usando Debug.Log().
-3. Cálculo de la magnitud del vectorB y mostración en la consola usando Debug.Log().
-4. Cálculo del ángulo entre vectorA y vectorB y mostración en la consola usando Debug.Log().
-5. Cálculo de la distancia entre los puntos resultantes de sumar vectorA y vectorB a la posición del objeto al que pertenece el script y mostración en la consola usando Debug.Log().
-6. Determinación de qué vector está más alto comparando las coordenadas de ambos vectores y mostración en la consola usando Debug.Log().
+2. Cálculo de la magnitud del vectorA y muestra en la consola usando Debug.Log().
+3. Cálculo de la magnitud del vectorB y muestra en la consola usando Debug.Log().
+4. Cálculo del ángulo entre vectorA y vectorB y muestra en la consola usando Debug.Log().
+5. Cálculo de la distancia entre los puntos resultantes de sumar vectorA y vectorB a la posición del objeto al que pertenece el script y muestra en la consola usando Debug.Log().
+6. Determinación de qué vector está más alto comparando las coordenadas de ambos vectores y muestra en la consola usando Debug.Log().
 
 <br><br>
 
@@ -75,4 +75,4 @@ Para ello se han seguido los siguientes pasos:
 Dentro del script:
 
 1. Acceso a la posición del objeto al que pertenece el script utilizando **transform.position**.
-2. Mostración de la posición de la esfera en la consola usando Debug.Log().
+2. Muestra de la posición de la esfera en la consola usando Debug.Log().
