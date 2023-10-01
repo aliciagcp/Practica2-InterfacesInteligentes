@@ -38,7 +38,7 @@ Para ello se han seguido los siguientes pasos:
 Dentro del script:
 
 1. Declaración de variables públicas para referenciar objetos en Unity (plane, cube, sphere, cylinder).
-2. Acceso al nombre de los objetos (plane, cube, sphere, cylinder) y muestra en la consola usando Debug.Log().
+2. Acceso al nombre de los objetos (plane, cube, sphere, cylinder) y muestra en la consola usando **Debug.Log()**.
 
 <br><br>
 
