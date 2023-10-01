@@ -143,6 +143,27 @@ Dentro del script:
 
 - **h) Se pide agregar 5 esferas más en la escena. Crear un grupo de 2, asígnarles la misma etiqueta y a las restantes otra etiqueta diferente a ésta. Crear un vector con las distancias de cada una de las del segundo grupo al cubo. Subir en altura (aumentar la y) de la esfera más cercana. Cambiar color de la más lejana cuando el jugador pulsa la tecla espacio.**
 
-![ejercicio_7](gifs/ejercicio_7.gif)
+![ejercicio_8](gifs/ejercicio_8.gif)
 
 Para ello se han seguido los siguientes pasos:
+1. Creación de 5 objetos básicos más (esferas), además de los ya creados.
+2. Asignación de la etiqueta "Group1" a dos de esos cinco objetos y asignación de la etiqueta "Group2" a los tres restantes.
+3. Creación de un ojeto vacío (Group2).
+4. Creación de un [script](scripts/ejercicio8_script.cs) asociado a dicho objeto (Ejercicio_8).
+5. Asignación de los objetos con etiqueta "Group2" y del objeto "Cube" en el Inspector del objeto que contiene dicho script.
+
+Dentro del script:
+1. Creación de un arreglo de esferas (spheres) como un arreglo de objetos GameObject.
+2. Creación de un arreglo de distancias (distances) para almacenar las distancias entre el objeto cube y cada esfera.
+3. Bucle for para calcular y almacenar las distancias entre cada esfera y el objeto cube en el arreglo distances.
+4. Obtención de la distancia mínima (minimumDistance) entre el objeto cube y las esferas usando **Mathf.Min(distances)**.
+5. Obtención del índice de la esfera más cercana en el arreglo de distancias usando **System.Array.IndexOf(distances, minimumDistance)**.
+6. Acceso al objeto de la esfera más cercana (nearestSphere) usando el índice obtenido.
+7. Aumento de la altura de la esfera más cercana al cubo en el eje Y usando **Time.deltaTime**.
+8. Obtención de la distancia máxima (maximumDistance) entre el objeto cube y las esferas usando **Mathf.Max(distances)**.
+9. Obtención del índice de la esfera más lejana en el arreglo de distancias usando **System.Array.IndexOf(distances, maximumDistance)**.
+10. Acceso al objeto de la esfera más lejana (farthestSphere) usando el índice obtenido.
+11. Detección de la tecla "Espacio" presionada usando **Input.GetKeyDown(KeyCode.Space)**.
+12. Obtención del componente Renderer del objeto farthestSphere usando **farthestSphere.GetComponent<Renderer>()**.
+13. Creación de un nuevo color aleatorio usando **new Color(Random.value, Random.value, Random.value)**.
+14. Asignación del color aleatorio al material del objeto "farthestSphere" usando **materialSphere.color**.
