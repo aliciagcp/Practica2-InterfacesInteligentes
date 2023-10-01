@@ -138,3 +138,11 @@ Dentro del script:
 6. Obtención del componente Renderer del objeto cube usando **cube.GetComponent<Renderer>()**.
 7. Creación de un nuevo color aleatorio usando **new Color(Random.value, Random.value, Random.value)**.
 8. Asignación del color aleatorio al material del objeto cube usando **materialCube.color**.
+
+<br><br>
+
+- **h) Se pide agregar 5 esferas más en la escena. Crear un grupo de 2, asígnarles la misma etiqueta y a las restantes otra etiqueta diferente a ésta. Crear un vector con las distancias de cada una de las del segundo grupo al cubo. Subir en altura (aumentar la y) de la esfera más cercana. Cambiar color de la más lejana cuando el jugador pulsa la tecla espacio.**
+
+![ejercicio_7](gifs/ejercicio_7.gif)
+
+Para ello se han seguido los siguientes pasos:
