@@ -77,7 +77,7 @@ Para ello se han seguido los siguientes pasos:
 Dentro del script:
 
 1. Acceso a la posición del objeto al que pertenece el script utilizando **transform.position**.
-2. Muestra de la posición de la esfera en la consola usando Debug.Log().
+2. Muestra de la posición de la esfera en la consola usando **Debug.Log()**.
 
 <br><br>
 
