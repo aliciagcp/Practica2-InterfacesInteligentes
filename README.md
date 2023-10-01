@@ -98,3 +98,13 @@ Dentro del script:
 7. Cálculo de la distancia entre los objetos cube y cylinder utilizando **Vector3.Distance()**.
 8. Muestra de las distancias calculadas en la consola utilizando **Debug.Log()**.
 9. Si no se encuentran objetos con las etiquetas "Cube" o "Cylinder", muestrabde un mensaje de error en la consola utilizando **Debug.LogError()**.
+
+<br><br>
+
+- **f) Se pide crear un script que alinee el cilindro y el cubo con la esfera, 5 unidades a derecha e izquierda respectivamente en el eje X. Probar a cambiar la coordenada x de la posición de la esfera en el Inspector de Objetos.**
+
+![ejercicio_6](gifs/ejercicio_6.gif)
+
+Para ello se han seguido los siguientes pasos:
+1. Creación de un [script](scripts/ejercicio6_script.cs) asociado al objeto esfera (Ejercicio_6).
+2. 
