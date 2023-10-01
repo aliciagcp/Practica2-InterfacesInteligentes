@@ -57,11 +57,12 @@ Para ello se han seguido los siguientes pasos:
 Dentro del script:
 
 1. Declaración de variables públicas para los vectores **vectorA** y **vectorB**.
-2. Cálculo de la magnitud del vectorA y muestra en la consola usando Debug.Log().
-3. Cálculo de la magnitud del vectorB y muestra en la consola usando Debug.Log().
-4. Cálculo del ángulo entre vectorA y vectorB y muestra en la consola usando Debug.Log().
-5. Cálculo de la distancia entre los puntos resultantes de sumar vectorA y vectorB a la posición del objeto al que pertenece el script y muestra en la consola usando Debug.Log().
-6. Determinación de qué vector está más alto comparando las coordenadas de ambos vectores y muestra en la consola usando Debug.Log().
+2. Cálculo de la magnitud del vectorA utilizando **vectorA.magnitude**.
+3. Cálculo de la magnitud del vectorB utilizando **vectorB.magnitude**.
+4. Cálculo del ángulo entre vectorA y vectorB utilizando **Vector3.Angle**.
+5. Cálculo de la distancia entre los puntos resultantes de sumar vectorA y vectorB a la posición del objeto al que pertenece el script utilizando **Vector3.Distance**.
+6. Determinación de qué vector está más alto comparando las coordenadas de ambos vectores.
+7. Muestra de los cálculos realizados en la consola utilizando **Debug.Log()**.
 
 <br><br>
 
@@ -90,10 +91,10 @@ Para ello se han seguido los siguientes pasos:
 Dentro del script:
 1. Búsqueda de objetos con las etiquetas "Cube" y "Cylinder" en la escena utilizando **GameObject.FindWithTag()**.
 2. Verificación de si se encontraron los objetos (cube y cylinder) utilizando una declaración if.
-3. Obtención del componente Transform de los objetos cube y cylinder.
+3. Obtención del componente "Transform" de los objetos cube y cylinder.
 4. Obtención de las posiciones de los objetos cube y cylinder utilizando **Transform.position**.
 5. Cálculo de la distancia entre el objeto al que pertenece el script y el objeto cube utilizando **Vector3.Distance()**.
 6. Cálculo de la distancia entre el objeto al que pertenece el script y el objeto cylinder utilizando **Vector3.Distance()**.
-7. Cálculo de la distancia entre los objetos cube y cylinder utilizando Vector3.Distance().
-8. Muestra de las distancias calculadas en la consola utilizando Debug.Log().
+7. Cálculo de la distancia entre los objetos cube y cylinder utilizando **Vector3.Distance()**.
+8. Muestra de las distancias calculadas en la consola utilizando **Debug.Log()**.
 9. Si no se encuentran objetos con las etiquetas "Cube" o "Cylinder", muestrabde un mensaje de error en la consola utilizando **Debug.LogError()**.
