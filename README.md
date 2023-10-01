@@ -31,8 +31,9 @@ Para ello se han seguido los siguientes pasos:
 1. Creación de dos objetos 3D básicos nuevos (esfera y cilindro).
 2. Creación de una carpeta **Materials** dentro de la carpeta **Assets**.
 3. Creación, nombramiento y asignación de cada material a un objeto distinto.
-4. Creación de un [script](scripts/ejercicio2_script.cs) asociado a un objeto vacío (printName).
-5. En el inspector de dicho objeto, asignación de cada objeto a su variable correspondiente.
+4. Creación de un objeto vacío (printName).
+5. Creación de un [script](scripts/ejercicio2_script.cs) asociado a dicho objeto vacío (print Object Name).
+6. En el inspector de dicho objeto, asignación de cada objeto a su variable correspondiente.
 
 Dentro del script:
 
@@ -124,4 +125,16 @@ Dentro del script:
 ![ejercicio_7](gifs/ejercicio_7.gif)
 
 Para ello se han seguido los siguientes pasos:
-1. Creación de un [script](scripts/ejercicio7_script.cs) asociado al objeto esfera (Ejercicio_6).
+1. Creación de un objeto vacío (changeColors).
+2. Creación de un [script](scripts/ejercicio7_script.cs) asociado a dicho objeto (Change Color Objects).
+3. Asignación de los objetos "Cube" y "Cylinder" en el Inspector del objeto que contiene dicho script.
+
+Dentro del script:
+1. Detección de la tecla "A" presionada usando **Input.GetKeyDown(KeyCode.A)**.
+2. Obtención del componente Renderer del objeto cylinder usando **cylinder.GetComponent<Renderer>()**.
+3. Creación de un nuevo color aleatorio usando **new Color(Random.value, Random.value, Random.value)**.
+4. Asignación del color aleatorio al material del objeto cylinder usando **materialCylinder.color**.
+5. Detección de la tecla de flecha hacia arriba presionada usando **Input.GetKeyDown(KeyCode.UpArrow)**.
+6. Obtención del componente Renderer del objeto cube usando **cube.GetComponent<Renderer>()**.
+7. Creación de un nuevo color aleatorio usando **new Color(Random.value, Random.value, Random.value)**.
+8. Asignación del color aleatorio al material del objeto cube usando **materialCube.color**.
