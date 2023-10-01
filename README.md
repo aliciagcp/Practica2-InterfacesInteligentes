@@ -85,5 +85,15 @@ Dentro del script:
 
 Para ello se han seguido los siguientes pasos:
 1. Creación de un [script](scripts/ejercicio5_script.cs) asociado al objeto esfera (Ejercicio_5).
+2. Asignación a cada objeto de una etiqueta identificativa.
 
 Dentro del script:
+1. Búsqueda de objetos con las etiquetas "Cube" y "Cylinder" en la escena utilizando **GameObject.FindWithTag()**.
+2. Verificación de si se encontraron los objetos (cube y cylinder) utilizando una declaración if.
+3. Obtención del componente Transform de los objetos cube y cylinder.
+4. Obtención de las posiciones de los objetos cube y cylinder utilizando **Transform.position**.
+5. Cálculo de la distancia entre el objeto al que pertenece el script y el objeto cube utilizando **Vector3.Distance()**.
+6. Cálculo de la distancia entre el objeto al que pertenece el script y el objeto cylinder utilizando **Vector3.Distance()**.
+7. Cálculo de la distancia entre los objetos cube y cylinder utilizando Vector3.Distance().
+8. Muestra de las distancias calculadas en la consola utilizando Debug.Log().
+9. Si no se encuentran objetos con las etiquetas "Cube" o "Cylinder", muestrabde un mensaje de error en la consola utilizando **Debug.LogError()**.
