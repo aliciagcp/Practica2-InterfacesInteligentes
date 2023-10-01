@@ -116,3 +116,12 @@ Dentro del script:
 4. Asignación de la nueva posición calculada al objeto cylinder utilizando **cylinder.transform.position**.
 5. Resta del vector de desplazamiento a la posición actual del objeto (transform.position) para calcular la nueva posición del objeto cube a 5 unidades a la izquierda en el eje X.
 6. Asignación de la nueva posición calculada al objeto cube utilizando **cube.transform.position**.
+
+<br><br>
+
+- **g) Se pide cambiar el color del cilindro cuando el usuario pulse la tecla A, cambia el color del cubo cuando el usuario pulse la flecha arriba.**
+
+![ejercicio_7](gifs/ejercicio_7.gif)
+
+Para ello se han seguido los siguientes pasos:
+1. Creación de un [script](scripts/ejercicio7_script.cs) asociado al objeto esfera (Ejercicio_6).
