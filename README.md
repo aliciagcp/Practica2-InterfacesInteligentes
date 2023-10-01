@@ -47,3 +47,18 @@ Dentro del script:
    + **La distancia entre ambos.**
    + **Un mensaje indicando qué vector está a una altura mayor.**
    + **Muestra en el inspector cada uno de esos valores.**
+
+![ejercicio_3](gifs/ejercicio_3.gif)
+
+Para ello se han seguido los siguientes pasos:
+1. Creación de un [script](scripts/ejercicio3_script.cs) asociado al objeto esfera (Ejercicio_3).
+2. Asignación de valores a cada componen de los vectores en el inspector.
+
+Dentro del script:
+
+1. Declaración de variables públicas para los vectores **vectorA** y **vectorB**.
+2. Cálculo de la magnitud del vectorA.
+3. Cálculo de la magnitud del vectorB.
+4. Cálculo del ángulo entre vectorA y vectorB.
+5. Cálculo de la distancia entre los puntos resultantes de sumar vectorA y vectorB a la posición del objeto al que pertenece el script.
+6. Determinación de qué vector está más alto comparando las coordenadas de ambos vectores.
