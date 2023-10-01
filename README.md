@@ -120,7 +120,7 @@ Dentro del script:
 
 <br><br>
 
-- **g) Se pide cambiar el color del cilindro cuando el usuario pulse la tecla A, cambia el color del cubo cuando el usuario pulse la flecha arriba.**
+- **g) Se pide cambiar el color del cilindro cuando el usuario pulse la tecla A, cambiar el color del cubo cuando el usuario pulse la flecha arriba.**
 
 ![ejercicio_7](gifs/ejercicio_7.gif)
 
