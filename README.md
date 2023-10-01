@@ -62,3 +62,17 @@ Dentro del script:
 4. Cálculo del ángulo entre vectorA y vectorB y mostración en la consola usando Debug.Log().
 5. Cálculo de la distancia entre los puntos resultantes de sumar vectorA y vectorB a la posición del objeto al que pertenece el script y mostración en la consola usando Debug.Log().
 6. Determinación de qué vector está más alto comparando las coordenadas de ambos vectores y mostración en la consola usando Debug.Log().
+
+<br><br>
+
+- **d) Se pide mostrar en pantalla el vector con la posición de la esfera.**
+
+![ejercicio_4](gifs/ejercicio_4.gif)
+
+Para ello se han seguido los siguientes pasos:
+1. Creación de un [script](scripts/ejercicio4_script.cs) asociado al objeto esfera (Ejercicio_4).
+
+Dentro del script:
+
+1. Acceso a la posición del objeto al que pertenece el script utilizando **transform.position**.
+2. Mostración de la posición de la esfera en la consola usando Debug.Log().
