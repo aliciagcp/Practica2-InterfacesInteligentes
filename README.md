@@ -52,7 +52,7 @@ Dentro del script:
 
 Para ello se han seguido los siguientes pasos:
 1. Creación de un [script](scripts/ejercicio3_script.cs) asociado al objeto esfera (Ejercicio_3).
-2. Asignación de valores a cada componen de los vectores en el inspector.
+2. Asignación de valores a cada componente de los vectores en el inspector.
 
 Dentro del script:
 
